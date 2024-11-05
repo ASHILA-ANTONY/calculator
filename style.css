@@ -1,0 +1,21 @@
+.large-button {
+    font-size: 30px;        /* Increase text size */
+    padding: 15px 30px;     /* Increase button size */
+    width: 80px;            /* Adjust width of the button */
+    height: 60px;           /* Adjust height of the button */
+  }
+
+  table {
+    margin: 0 auto;
+  }
+  
+  /* Style the display screen */
+#display {
+    font-size: 24px;
+    text-align: right;
+    width: 260px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+  }

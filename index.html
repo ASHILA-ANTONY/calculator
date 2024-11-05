@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+  <center>
+    <div>
+      <!-- Display Screen -->
+      <input type="text" id="display" readonly>
+
+      <!-- Calculator Buttons -->
+      <table>
+        <tbody>
+          <tr>
+            <td><button class="large-button" onclick="addToDisplay('7')">7</button></td>
+            <td><button class="large-button" onclick="addToDisplay('8')">8</button></td>
+            <td><button class="large-button" onclick="addToDisplay('9')">9</button></td>
+          </tr>
+          <tr>
+            <td><button class="large-button" onclick="addToDisplay('4')">4</button></td>
+            <td><button class="large-button" onclick="addToDisplay('5')">5</button></td>
+            <td><button class="large-button" onclick="addToDisplay('6')">6</button></td>
+          </tr>
+          <tr>
+            <td><button class="large-button" onclick="addToDisplay('0')">0</button></td>
+            <td><button class="large-button" onclick="addToDisplay('1')">1</button></td>
+            <td><button class="large-button" onclick="addToDisplay('3')">3</button></td>
+         </tr>
+         <tr>
+          <td><button class="large-button" onclick="setOperation('+')">+</button></td>
+          <td><button class="large-button" onclick="setOperation('-')">-</button></td>
+          <td><button class="large-button" onclick="setOperation('*')">*</button></td>
+      
+         </tr>
+         <tr>
+          <td><button class="large-button" onclick="setOperation('/')">/</button></td>
+        <td><button class="large-button" onclick="backspace()">⌫</button></td>
+          <td><button class="large-button" onclick="calculate()">=</button></td> <!-- Equal Button -->
+         </tr>
+
+
+                
+          <!-- Backspace Button -->
+          
+            
+          
+        </tbody>
+      </table>
+    </div>
+  </center>
+
+  <script src="script.js"></script> <!-- Link to external JavaScript -->
+</body>
+</html>
